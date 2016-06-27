@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1FBD641D1DA7F5006CB56E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FBD631D1DA7F5006CB56E /* main.swift */; };
+		AEBFA2991D2123E8006F8D84 /* AddLicenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */; };
+		AEBFA2A01D2124EE006F8D84 /* LicenseRewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */; };
+		AEBFA2B81D213B7F006F8D84 /* LicenseRewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEBFA2A11D21256A006F8D84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1FBD581D1DA7F5006CB56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1FBD5F1D1DA7F5006CB56E;
+			remoteInfo = AddLicense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE1FBD5E1D1DA7F5006CB56E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE1FBD601D1DA7F5006CB56E /* AddLicense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddLicense; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1FBD631D1DA7F5006CB56E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddLicenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicenseTests.swift; sourceTree = "<group>"; };
+		AEBFA29A1D2123E8006F8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseRewriter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1FBD5D1D1DA7F5006CB56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBFA2931D2123E8006F8D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1FBD571D1DA7F5006CB56E = {
+			isa = PBXGroup;
+			children = (
+				AE1FBD621D1DA7F5006CB56E /* AddLicense */,
+				AEBFA2971D2123E8006F8D84 /* AddLicenseTests */,
+				AE1FBD611D1DA7F5006CB56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1FBD611D1DA7F5006CB56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FBD601D1DA7F5006CB56E /* AddLicense */,
+				AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1FBD621D1DA7F5006CB56E /* AddLicense */ = {
+			isa = PBXGroup;
+			children = (
+				AE1FBD631D1DA7F5006CB56E /* main.swift */,
+				AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */,
+			);
+			path = AddLicense;
+			sourceTree = "<group>";
+		};
+		AEBFA2971D2123E8006F8D84 /* AddLicenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */,
+				AEBFA29A1D2123E8006F8D84 /* Info.plist */,
+			);
+			path = AddLicenseTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1FBD5F1D1DA7F5006CB56E /* AddLicense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1FBD671D1DA7F5006CB56E /* Build configuration list for PBXNativeTarget "AddLicense" */;
+			buildPhases = (
+				AE1FBD5C1D1DA7F5006CB56E /* Sources */,
+				AE1FBD5D1D1DA7F5006CB56E /* Frameworks */,
+				AE1FBD5E1D1DA7F5006CB56E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddLicense;
+			productName = AddLicense;
+			productReference = AE1FBD601D1DA7F5006CB56E /* AddLicense */;
+			productType = "com.apple.product-type.tool";
+		};
+		AEBFA2951D2123E8006F8D84 /* AddLicenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBFA29B1D2123E8006F8D84 /* Build configuration list for PBXNativeTarget "AddLicenseTests" */;
+			buildPhases = (
+				AEBFA2921D2123E8006F8D84 /* Sources */,
+				AEBFA2931D2123E8006F8D84 /* Frameworks */,
+				AEBFA2941D2123E8006F8D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBFA2A21D21256A006F8D84 /* PBXTargetDependency */,
+			);
+			name = AddLicenseTests;
+			productName = AddLicenseTests;
+			productReference = AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1FBD581D1DA7F5006CB56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = RabbitMQ;
+				TargetAttributes = {
+					AE1FBD5F1D1DA7F5006CB56E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AEBFA2951D2123E8006F8D84 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE1FBD5B1D1DA7F5006CB56E /* Build configuration list for PBXProject "AddLicense" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE1FBD571D1DA7F5006CB56E;
+			productRefGroup = AE1FBD611D1DA7F5006CB56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1FBD5F1D1DA7F5006CB56E /* AddLicense */,
+				AEBFA2951D2123E8006F8D84 /* AddLicenseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBFA2941D2123E8006F8D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1FBD5C1D1DA7F5006CB56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1FBD641D1DA7F5006CB56E /* main.swift in Sources */,
+				AEBFA2A01D2124EE006F8D84 /* LicenseRewriter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBFA2921D2123E8006F8D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBFA2991D2123E8006F8D84 /* AddLicenseTests.swift in Sources */,
+				AEBFA2B81D213B7F006F8D84 /* LicenseRewriter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEBFA2A21D21256A006F8D84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1FBD5F1D1DA7F5006CB56E /* AddLicense */;
+			targetProxy = AEBFA2A11D21256A006F8D84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE1FBD651D1DA7F5006CB56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1FBD661D1DA7F5006CB56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE1FBD681D1DA7F5006CB56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE1FBD691D1DA7F5006CB56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEBFA29C1D2123E8006F8D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AddLicenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbitmq.AddLicenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEBFA29D1D2123E8006F8D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AddLicenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbitmq.AddLicenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1FBD5B1D1DA7F5006CB56E /* Build configuration list for PBXProject "AddLicense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1FBD651D1DA7F5006CB56E /* Debug */,
+				AE1FBD661D1DA7F5006CB56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1FBD671D1DA7F5006CB56E /* Build configuration list for PBXNativeTarget "AddLicense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1FBD681D1DA7F5006CB56E /* Debug */,
+				AE1FBD691D1DA7F5006CB56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBFA29B1D2123E8006F8D84 /* Build configuration list for PBXNativeTarget "AddLicenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBFA29C1D2123E8006F8D84 /* Debug */,
+				AEBFA29D1D2123E8006F8D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1FBD581D1DA7F5006CB56E /* Project object */;
+}
