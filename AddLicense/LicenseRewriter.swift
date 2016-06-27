@@ -4,7 +4,7 @@ class LicenseRewriter {
     var license: String!
 
     init(_ license: String) {
-        self.license = license
+        self.license = license.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
     }
 
     func rewrite(source: String) -> String {

@@ -39,4 +39,17 @@ class AddLicenseTests: XCTestCase {
         XCTAssertEqual(expected, rewritten)
     }
 
+    func testIdempotency() {
+        let source    = "// Older license 1.2.3\n" +
+                        "\n" +
+                        "Some source code\n"
+        let license   = "// Replacement license 4.2\n" +
+                        "// Please use me\n"
+        let rewriter  = LicenseRewriter(license)
+        let once      = rewriter.rewrite(source)
+        let twice     = rewriter.rewrite(once)
+        
+        XCTAssertEqual(once, twice)
+    }
+
 }
