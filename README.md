@@ -6,7 +6,7 @@ Xcode doesn't do licenses well, so this.
 
 Because I'm a noob and don't know any better:
 ```
-xcrun -sdk macosx swiftc AddLicense/LicenseRewriter.swift AddLicense/main.swift -o add-license
+xcrun -sdk macosx swiftc AddLicense/OptionParser.swift AddLicense/LicenseRewriter.swift AddLicense/main.swift -o add-license
 ```
 
 ## Usage
