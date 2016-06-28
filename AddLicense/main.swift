@@ -4,13 +4,11 @@ import Foundation
 
 let fileManager = NSFileManager.defaultManager()
 let parser = OptionParser()
-let (licensePath, filePaths) = parser.parse(Process.arguments)
+let (extensionsToChange, licensePath, filePaths) = parser.parse(Process.arguments)
 let license = try! String(contentsOfFile: licensePath)
 let rewriter = LicenseRewriter(license)
 
 for dirPath in filePaths {
-    let extensionsToChange = Set(["swift", "h", "m"])
-
     let filenames = fileManager.enumeratorAtPath(dirPath)?.filter { (e) -> Bool in
         let s = e as! String
         let url = NSURL(fileURLWithPath: s)
@@ -28,6 +26,6 @@ for dirPath in filePaths {
             print("Ignoring exception: \(e)")
         }
     }
-
 }
+
 exit(0)

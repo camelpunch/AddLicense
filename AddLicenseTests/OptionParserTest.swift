@@ -2,9 +2,10 @@ import XCTest
 
 class OptionParserTest: XCTestCase {
 
-    func testSeparatesLicenseAndOtherFilenames() {
+    func testSeparatesExtensionsAndLicenseAndOtherFilenames() {
         let parser = OptionParser()
-        let (license, filenames) = parser.parse(["execname", "my-license.txt", "my-dir", "my-other-dir"])
+        let (extensions, license, filenames) = parser.parse(["execname", "erb,rb,bat,txt", "my-license.txt", "my-dir", "my-other-dir"])
+        XCTAssertEqual(Set(["erb", "rb", "bat", "txt"]), extensions)
         XCTAssertEqual("my-license.txt", license)
         XCTAssertEqual(["my-dir", "my-other-dir"], filenames)
     }
