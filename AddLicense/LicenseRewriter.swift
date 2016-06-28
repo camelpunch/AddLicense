@@ -2,9 +2,11 @@ import Foundation
 
 class LicenseRewriter {
     var license: String!
+    var prefix: String!
 
-    init(_ license: String) {
+    init(_ license: String, prefix: String) {
         self.license = license.stringByTrimmingCharactersInSet(NSCharacterSet.newlineCharacterSet())
+        self.prefix = prefix
     }
 
     func rewrite(source: String) -> String {
@@ -31,6 +33,7 @@ class LicenseRewriter {
         let firstChar = source.startIndex
         let secondChar = source.startIndex.advancedBy(1)
         let firstTwoChars = source[Range(firstChar...secondChar)]
-        return firstTwoChars == "//"
+        let paddedPrefix = prefix.stringByPaddingToLength(2, withString: " ", startingAtIndex: 0)
+        return firstTwoChars == paddedPrefix || firstTwoChars == "\(prefix)\n"
     }
 }

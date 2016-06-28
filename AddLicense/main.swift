@@ -4,9 +4,9 @@ import Foundation
 
 let fileManager = NSFileManager.defaultManager()
 let parser = OptionParser()
-let (extensionsToChange, licensePath, filePaths) = parser.parse(Process.arguments)
+let (extensionsToChange, prefix, licensePath, filePaths) = parser.parse(Process.arguments)
 let license = try! String(contentsOfFile: licensePath)
-let rewriter = LicenseRewriter(license)
+let rewriter = LicenseRewriter(license, prefix: prefix)
 
 for dirPath in filePaths {
     let filenames = fileManager.enumeratorAtPath(dirPath)?.filter { (e) -> Bool in

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE1FBD641D1DA7F5006CB56E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FBD631D1DA7F5006CB56E /* main.swift */; };
-		AEBFA2991D2123E8006F8D84 /* AddLicenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */; };
+		AEBFA2991D2123E8006F8D84 /* LicenseRewriterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA2981D2123E8006F8D84 /* LicenseRewriterTest.swift */; };
 		AEBFA2A01D2124EE006F8D84 /* LicenseRewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */; };
 		AEBFA2B81D213B7F006F8D84 /* LicenseRewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */; };
 		AEBFA2BA1D226953006F8D84 /* OptionParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFA2B91D226953006F8D84 /* OptionParserTest.swift */; };
@@ -42,7 +42,7 @@
 		AE1FBD601D1DA7F5006CB56E /* AddLicense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddLicense; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1FBD631D1DA7F5006CB56E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddLicenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLicenseTests.swift; sourceTree = "<group>"; };
+		AEBFA2981D2123E8006F8D84 /* LicenseRewriterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseRewriterTest.swift; sourceTree = "<group>"; };
 		AEBFA29A1D2123E8006F8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBFA29F1D2124EE006F8D84 /* LicenseRewriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseRewriter.swift; sourceTree = "<group>"; };
 		AEBFA2B91D226953006F8D84 /* OptionParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionParserTest.swift; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 		AEBFA2971D2123E8006F8D84 /* AddLicenseTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEBFA2981D2123E8006F8D84 /* AddLicenseTests.swift */,
 				AEBFA29A1D2123E8006F8D84 /* Info.plist */,
+				AEBFA2981D2123E8006F8D84 /* LicenseRewriterTest.swift */,
 				AEBFA2B91D226953006F8D84 /* OptionParserTest.swift */,
 			);
 			path = AddLicenseTests;
@@ -205,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBFA2BA1D226953006F8D84 /* OptionParserTest.swift in Sources */,
-				AEBFA2991D2123E8006F8D84 /* AddLicenseTests.swift in Sources */,
+				AEBFA2991D2123E8006F8D84 /* LicenseRewriterTest.swift in Sources */,
 				AEBFA2B81D213B7F006F8D84 /* LicenseRewriter.swift in Sources */,
 				AEBFA2BD1D226A23006F8D84 /* OptionParser.swift in Sources */,
 			);

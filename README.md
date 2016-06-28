@@ -11,9 +11,9 @@ xcrun -sdk macosx swiftc AddLicense/OptionParser.swift AddLicense/LicenseRewrite
 
 ## Usage
 
-To apply `my-license.txt` to all `*.m`, `*.h` and `*.rb` files in `dir1` `dir2`
-and `dir3`:
+To apply `my-license.txt` with '//' comments to all `*.m` and `*.h` files in
+`dir1` `dir2` and `dir3`:
 
 ```
-add-license m,h,rb my-license.txt dir1 dir2 dir3
+add-license m,h,rb '//' my-license.txt dir1 dir2 dir3
 ```
