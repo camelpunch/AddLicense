@@ -3,10 +3,10 @@
 import Foundation
 
 let fileManager = NSFileManager.defaultManager()
-let licenseAndFilePaths = Process.arguments.dropFirst()
-let license = try! String(contentsOfFile: licenseAndFilePaths[licenseAndFilePaths.startIndex])
+let parser = OptionParser()
+let (licensePath, filePaths) = parser.parse(Process.arguments)
+let license = try! String(contentsOfFile: licensePath)
 let rewriter = LicenseRewriter(license)
-let filePaths = licenseAndFilePaths.dropFirst()
 
 for dirPath in filePaths {
     let extensionsToChange = Set(["swift", "h", "m"])
