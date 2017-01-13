@@ -19,4 +19,4 @@ add-license m,h '//' my-license.txt dir1 dir2 dir3
 
 - Product > Archive > Export
 
-The resulting folder contains an executable called `AddLicense`.
+The resulting folder contains an executable called `add-license`.
