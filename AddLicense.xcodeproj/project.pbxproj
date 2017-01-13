@@ -39,7 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE1FBD601D1DA7F5006CB56E /* AddLicense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AddLicense; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1FBD601D1DA7F5006CB56E /* add-license */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "add-license"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1FBD631D1DA7F5006CB56E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddLicenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFA2981D2123E8006F8D84 /* LicenseRewriterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseRewriterTest.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		AE1FBD611D1DA7F5006CB56E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE1FBD601D1DA7F5006CB56E /* AddLicense */,
+				AE1FBD601D1DA7F5006CB56E /* add-license */,
 				AEBFA2961D2123E8006F8D84 /* AddLicenseTests.xctest */,
 			);
 			name = Products;
@@ -122,7 +122,7 @@
 			);
 			name = AddLicense;
 			productName = AddLicense;
-			productReference = AE1FBD601D1DA7F5006CB56E /* AddLicense */;
+			productReference = AE1FBD601D1DA7F5006CB56E /* add-license */;
 			productType = "com.apple.product-type.tool";
 		};
 		AEBFA2951D2123E8006F8D84 /* AddLicenseTests */ = {
@@ -309,7 +309,7 @@
 		AE1FBD681D1DA7F5006CB56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "add-license";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -317,7 +317,7 @@
 		AE1FBD691D1DA7F5006CB56E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "add-license";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
